@@ -7,7 +7,7 @@ import {Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class TaskService {
-  private url = 'https://whispering-hollows-26336.herokuapp.com/api/v1/tasks/';
+  private url = 'http://localhost:8000/api/v1/tasks/';
 
   constructor(private http: HttpClient) { }
 
